@@ -1,2 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.car-heading{
+  text-shadow: 1px 1px 2px red;
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar.navbar-inverse {
+  border-radius: 0;
+  box-shadow: 5px 3px 3px red;
+  margin-bottom:0;
+}
+
