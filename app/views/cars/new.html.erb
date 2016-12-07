@@ -1,0 +1,8 @@
+<h1>Build your car</h1>
+<%= simple_form_for @car do |f| %>
+  <%= f.input :make %>
+  <%= f.input :model %>
+  <%= f.input :year %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger'%>
+<% end %>
